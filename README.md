@@ -20,8 +20,8 @@ We have gained a thorough understanding of working and application of AR, image 
 We wish to expand the application by allowing users to create their own quests.
 
 ## Built With
-_echoar
-_firebase
-_flutter
-_tensorflow
-_unity
+* echoar
+* firebase
+* flutter
+* tensorflow
+* unity
