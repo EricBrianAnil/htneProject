@@ -1,3 +1,10 @@
+#Treasure Hunt - An ML/AR based game for kids  |  HTNE Project
+A flutter based educational treasure hunt game for kids that uses ML to enforce the players to detect objets from their real life surroundings based on riddles and quesries.
+
+![](1.gif)
+
+
+
 # Inspiration
 Inspired by technologies like AI, AR and the interactive gaming experiences they provide. This was an experimental project based on AR, ML and image detection. We wanted to build a mobile application
 
