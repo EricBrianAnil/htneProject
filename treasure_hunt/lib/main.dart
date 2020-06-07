@@ -1,9 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:camera/camera.dart';
-import 'home.dart';
+//import 'package:camera/camera.dart';
 
-List<CameraDescription> cameras;
+import 'login.dart';
+
+/*List<CameraDescription> cameras;
 
 Future<Null> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -12,17 +13,20 @@ Future<Null> main() async {
   } on CameraException catch (e) {
     print('Error: $e.code\nError Message: $e.message');
   }
+  runApp(new MyApp());}*/
+
+void main(){
   runApp(new MyApp());
 }
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
+        
         home: new SplashScreen(),
         routes: <String, WidgetBuilder>{
-          '/home': (BuildContext context) => new HomePage(cameras)
+          //'/home': (BuildContext context) => new HomePage(cameras)
+          '/login': (BuildContext context) => new LoginPage()
         });
   }
 }
@@ -39,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void navigationPage() {
-    Navigator.of(context).pushReplacementNamed('/home');
+    Navigator.of(context).pushReplacementNamed('/login');
   }
 
   @override
@@ -50,8 +54,8 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      body: new Center(
+    return Scaffold(
+      body: Center(
         child: Image.asset(
           "assets/images/cover.png",
           fit: BoxFit.cover,
