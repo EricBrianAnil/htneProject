@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Developer\\Hackathon\\HackTheNorthEast\\trygameapp\\trygameapp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "D:\\Developer\\Hackathon\\HackTheNorthEast\\htneProject\\trygameapp\\trygameapp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rahul\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\c9e4ae915af15382c0535e840155c984\\res\\values-bg\\values-bg.xml",

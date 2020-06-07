@@ -1,6 +1,8 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://D:/Flutter/src/.pub-cache/hosted/pub.dartlang.org/play_games-0.5.5" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>

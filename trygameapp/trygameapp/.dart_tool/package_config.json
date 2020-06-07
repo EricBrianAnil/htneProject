@@ -98,6 +98,12 @@
       "languageVersion": "2.4"
     },
     {
+      "name": "play_games",
+      "rootUri": "file:///D:/Flutter/src/.pub-cache/hosted/pub.dartlang.org/play_games-0.5.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
       "name": "quiver",
       "rootUri": "file:///D:/Flutter/src/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.3",
       "packageUri": "lib/",
@@ -170,7 +176,7 @@
       "languageVersion": "2.0"
     }
   ],
-  "generated": "2020-06-06T22:04:57.222268Z",
+  "generated": "2020-06-07T00:17:13.323589Z",
   "generator": "pub",
   "generatorVersion": "2.8.2"
 }
